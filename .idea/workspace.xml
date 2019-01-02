@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4a4effd-76f1-4b4a-bfb2-6e9e06f6b173" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterfaceGenerics/IntList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterfaceGenerics/LinkedIntList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterfaceGenerics/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterfaceGenerics/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InterfaceGenerics/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterfaceGenerics/Run.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedIntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Run.java" afterDir="false" />
-    </list>
+    <list default="true" id="f4a4effd-76f1-4b4a-bfb2-6e9e06f6b173" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1390" />
     <option name="height" value="1756" />
@@ -122,8 +112,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546437439514" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546437443552" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GroupChat" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -165,16 +155,15 @@
       <updated>1546423753277</updated>
       <workItem from="1546423756760" duration="7730000" />
       <workItem from="1546432488657" duration="22000" />
-      <workItem from="1546432764925" duration="4611000" />
+      <workItem from="1546432764925" duration="4661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12363000" />
+    <option name="totallyTimeSpent" value="12413000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="885" extended-state="7" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12547241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -185,7 +174,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980132" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32980132" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32980132" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
