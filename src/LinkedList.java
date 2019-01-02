@@ -1,11 +1,9 @@
-import java.util.LinkedList;
-
-public class LinkedIntList implements IntList
+public class LinkedList implements List
 {
     private ListNode front;  // first value in the list
 
     //constructs an empty list
-    public LinkedIntList()
+    public LinkedList()
     {
         front = null;
     }
@@ -33,7 +31,7 @@ public class LinkedIntList implements IntList
     }
 
     @Override
-    public int get(int index)
+    public Object get(int index)
     {
         if (index > size() || index < 0)
         {
@@ -41,7 +39,7 @@ public class LinkedIntList implements IntList
             return 0;
         }
 
-        int value = 0;
+        Object value = 0;
         ListNode current = front;
 
         for (int i = 0; i <= index; i++)
@@ -80,7 +78,7 @@ public class LinkedIntList implements IntList
     }
 
     // appends the given value to the end of the list
-    public void add(int value)
+    public void add(Object value)
     {
         if (front == null)
         {
@@ -100,7 +98,7 @@ public class LinkedIntList implements IntList
 
     // adds a new node til index and push list by 1!
     @Override
-    public void add(int index, int value)
+    public void add(int index, Object value)
     {
         if (front == null)
         {
@@ -109,7 +107,7 @@ public class LinkedIntList implements IntList
         else
         {
             ListNode current = front;
-            int copyValue = 0;
+            Object copyValue = 0;
 
             for (int i = 0; i <= size(); i++)
             {
@@ -133,34 +131,31 @@ public class LinkedIntList implements IntList
     @Override
     public void remove(int index)
     {
-        if (front == null)
+        if (index == 0)
         {
             System.out.println("List is empty");
+
         }
         else
         {
             ListNode current = front;
-            int copyValue = 0;
+            Object copyValue = 0;
 
-            for (int i = 0; i <= 4; i++)
+            for (int i = 0; i <= size(); i++)
             {
                 if (i >= index && current.next != null)
                 {
                     copyValue = current.next.data;
                     current.data = copyValue;
                 }
-
-                if (current.next == null)
+                if (current.next.next == null)
                 {
+                    current.next = null;
                     break;
                 }
                 current = current.next;
-
-
             }
-
         }
-
     }
 
 

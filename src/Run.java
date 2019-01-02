@@ -4,22 +4,22 @@ public class Run
 {
     public static void main(String[] args)
     {
-        LinkedIntList linkedIntList = new LinkedIntList();
-
-        linkedIntList.add(2);
-        linkedIntList.add(3);
-        linkedIntList.add(5);
+        LinkedList<String> linkedIntList = new LinkedList();
+        linkedIntList.remove(1);
+        linkedIntList.add("hi");
+        linkedIntList.add("hej");
+        linkedIntList.add("hej");
 
         //System.out.println(linkedIntList.size());
         //System.out.println(linkedIntList.get(-5));
         System.out.println(linkedIntList.toString());
 
-        linkedIntList.add(1,9);
+        linkedIntList.add(1,"cake");
         //System.out.println(linkedIntList.toString());
-        linkedIntList.add(2,3);
+        linkedIntList.add(2,"mor");
         System.out.println(linkedIntList.toString());
 
-        linkedIntList.remove(2);
+        linkedIntList.remove(7);
         System.out.println(linkedIntList.toString());
 
 

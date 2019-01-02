@@ -3,19 +3,19 @@
 
 public class ListNode
 {
-    public int data;       // data stored in this node
+    public Object data;       // data stored in this node
     public ListNode next;  // link to next node in the list
 
     // constructs a node with data 0 and null link
     public ListNode()
     {
         //this(0, null);
-        this.data =0;
+        this.data = null;
         this.next = null;
     }
 
     // constructs a node with given data and null link
-    public ListNode(int data)
+    public ListNode(Object data)
     {
         //this(data, null);
         this.data =data;
@@ -23,7 +23,7 @@ public class ListNode
     }
 
     // constructs a node with given data and given link
-    public ListNode(int data, ListNode next)
+    public ListNode(Object data, ListNode next)
     {
         this.data = data;
         this.next = next;
