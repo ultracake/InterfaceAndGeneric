@@ -1,4 +1,4 @@
-public class LinkedList implements List
+public class LinkedList<E> implements List
 {
     private ListNode front;  // first value in the list
 

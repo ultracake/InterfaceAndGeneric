@@ -1,15 +1,14 @@
-// ListNode is a class for storing a single node of a linked list.
-// This node class is for a list of integer values.
 
+// ListNode is for storing a single node of a linked list and a value.
 public class ListNode
 {
-    public Object data;       // data stored in this node
+    public Object data;    // data stored in this node
     public ListNode next;  // link to next node in the list
 
-    // constructs a node with data 0 and null link
+    // constructs a node with data null and null link
     public ListNode()
     {
-        //this(0, null);
+        //this(null, null);
         this.data = null;
         this.next = null;
     }
@@ -29,3 +28,5 @@ public class ListNode
         this.next = next;
     }
 }
+
+
