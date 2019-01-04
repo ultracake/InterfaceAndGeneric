@@ -14,7 +14,7 @@ public class Run
         linkedIntList.add(2,"er godt");
         System.out.println(linkedIntList.toString());
 
-        System.out.println("Her fjerner vi med index.");
+        System.out.println("Her fjerner vi med et index.");
         linkedIntList.remove(3);
         System.out.println(linkedIntList.toString());
 

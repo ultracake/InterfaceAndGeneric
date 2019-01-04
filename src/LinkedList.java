@@ -131,30 +131,22 @@ public class LinkedList<E> implements List
     @Override
     public void remove(int index)
     {
-        if (index == 0)
-        {
-            System.out.println("List is empty");
+        ListNode current = front;
+        Object copyValue = 0;
 
-        }
-        else
+        for (int i = 0; i <= size(); i++)
         {
-            ListNode current = front;
-            Object copyValue = 0;
-
-            for (int i = 0; i <= size(); i++)
+            if (i >= index && current.next != null)
             {
-                if (i >= index && current.next != null)
-                {
-                    copyValue = current.next.data;
-                    current.data = copyValue;
-                }
-                if (current.next.next == null)
-                {
-                    current.next = null;
-                    break;
-                }
-                current = current.next;
+                copyValue = current.next.data;
+                current.data = copyValue;
             }
+            if (current.next.next == null)
+            {
+                current.next = null;
+                break;
+            }
+            current = current.next;
         }
     }
 

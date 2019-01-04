@@ -22,11 +22,12 @@ public class ListNode
     }
 
     // constructs a node with given data and given link
+    /*
     public ListNode(Object data, ListNode next)
     {
         this.data = data;
         this.next = next;
-    }
+    }*/
 }
 
 
