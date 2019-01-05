@@ -1,6 +1,6 @@
-public class LinkedList<E> implements List
+public class LinkedList<E> implements List<E>
 {
-    private ListNode front;  // first value in the list
+    private ListNode<E> front;  // first value in the list
 
     //constructs an empty list
     public LinkedList()
@@ -19,7 +19,7 @@ public class LinkedList<E> implements List
             return size;
         }
 
-        ListNode current = front;
+        ListNode<E> current = front;
 
         //counts every node
         while (current != null)
@@ -40,7 +40,7 @@ public class LinkedList<E> implements List
         }
 
         Object value = 0;
-        ListNode current = front;
+        ListNode<E> current = front;
 
         for (int i = 0; i <= index; i++)
         {
@@ -63,7 +63,7 @@ public class LinkedList<E> implements List
         else
         {
             String result = "[" + front.data;
-            ListNode current = front.next;
+            ListNode<E> current = front.next;
 
             while (current != null)
             {
@@ -78,36 +78,36 @@ public class LinkedList<E> implements List
     }
 
     // appends the given value to the end of the list
-    public void add(Object value)
+    public void add(E value)
     {
         if (front == null)
         {
-            front = new ListNode(value);
+            front = new ListNode<E>(value);
         }
         else
         {
-            ListNode current = front;
+            ListNode<E> current = front;
 
             while (current.next != null)
             {
                 current = current.next;
             }
-            current.next = new ListNode(value);
+            current.next = new ListNode<E>(value);
         }
     }
 
     // adds a new node til index and push list by 1!
     @Override
-    public void add(int index, Object value)
+    public void add(int index, E value)
     {
         if (front == null)
         {
-            front = new ListNode(value);
+            front = new ListNode<E>(value);
         }
         else
         {
-            ListNode current = front;
-            Object copyValue = 0;
+            ListNode<E> current = front;
+            E copyValue = null;
 
             for (int i = 0; i <= size(); i++)
             {
@@ -120,7 +120,7 @@ public class LinkedList<E> implements List
                 }
                 if (current.next == null)
                 {
-                    current.next = new ListNode(value);
+                    current.next = new ListNode<E>(value);
                     break;
                 }
                 current = current.next;
@@ -131,8 +131,8 @@ public class LinkedList<E> implements List
     @Override
     public void remove(int index)
     {
-        ListNode current = front;
-        Object copyValue = 0;
+        ListNode<E> current = front;
+        E copyValue = null;
 
         for (int i = 0; i <= size(); i++)
         {

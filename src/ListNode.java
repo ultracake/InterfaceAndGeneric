@@ -1,9 +1,8 @@
 
 // ListNode is for storing a single node of a linked list and a value.
-public class ListNode
-{
-    public Object data;    // data stored in this node
-    public ListNode next;  // link to next node in the list
+public class ListNode<E> {
+    public E data;    // data stored in this node
+    public ListNode<E> next;  // link to next node in the list
 
     // constructs a node with data null and null link
     public ListNode()
@@ -14,7 +13,7 @@ public class ListNode
     }
 
     // constructs a node with given data and null link
-    public ListNode(Object data)
+    public ListNode(E data)
     {
         //this(data, null);
         this.data =data;

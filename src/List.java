@@ -1,4 +1,4 @@
-//E is a Object!
+//E is a parameter type!
 public interface List<E>
 {
     public int size();
