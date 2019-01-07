@@ -3,15 +3,15 @@ public class Run
     public static void main(String[] args)
     {
         LinkedList<String> linkedIntList = new LinkedList<String>();
-        linkedIntList.add("hi");
-        linkedIntList.add("med");
-        linkedIntList.add("dig derude");
+        linkedIntList.add("Seb");
+        linkedIntList.add("Jack");
+        linkedIntList.add("Mat");
         System.out.println(linkedIntList.toString());
 
 
         System.out.println("Her tilføjer vi 2 noder med en index.");
-        linkedIntList.add(1,"Kage");
-        linkedIntList.add(2,"er godt");
+        linkedIntList.add(1,"Tino");
+        linkedIntList.add(2,"Seb2");
         System.out.println(linkedIntList.toString());
 
         System.out.println("Her fjerner vi med et index.");
